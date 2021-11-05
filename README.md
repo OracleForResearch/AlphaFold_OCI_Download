@@ -7,6 +7,6 @@ Use these scripts to download data from Oracle Open Data platform to use with Al
 Execute the download_all_data.sh by typing
 
 ```{bash}
-./download_all_data.sh
+./download_all_data.sh /path/to/download/directory
 ```
 
