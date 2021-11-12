@@ -33,7 +33,7 @@ DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/bfd"
 # Mirror of:
 # https://bfd.mmseqs.com/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt.tar.gz.
-SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/h2rMbVSdDaYYGyVzWKR5H2LpbiuCkOTwFWNkudUqRjdICufkDcKNrwV_MOHl7RjI/n/idcxvbiyd8fn/b/bfd/o/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt.tar.gz"
+SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idcxvbiyd8fn/b/bfd/o/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt.tar.gz"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
