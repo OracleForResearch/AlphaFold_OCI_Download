@@ -31,7 +31,7 @@ fi
 
 DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/small_bfd"
-SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/i3Y-2zOVxzgQMyC0Pse0S-7iVCSI6il_ct0IhecgEq85hy-UkiY9sStEcNeB4QHh/n/idcxvbiyd8fn/b/alphafold_miscellaneous/o/"
+SOURCE_URL="https://storage.googleapis.com/alphafold-databases/reduced_dbs/bfd-first_non_consensus_sequences.fasta.gz"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
