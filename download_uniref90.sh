@@ -31,7 +31,7 @@ fi
 
 DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/uniref90"
-SOURCE_URL="https://objectstorage.us-phoenix-1.oraclecloud.com/p/sdEEILIJwnK1qv_OOpnWL1GOAb5OcKXVLZb7WywfYeg_sgbzra39OL7TzXEZ1FPx/n/idctddmqmz5i/b/uniprot/o/"
+SOURCE_URL="ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
