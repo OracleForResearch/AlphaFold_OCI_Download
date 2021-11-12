@@ -31,7 +31,7 @@ fi
 
 DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/params"
-SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/Ebej4Y-h1KmS5_CZi08AW--4HoUMUtDwOAY37BtoS0c7B0DSd9nBx3NnoNvsygAL/n/idcxvbiyd8fn/b/alphafold_miscellaneous/o/"
+SOURCE_URL="https://storage.googleapis.com/alphafold/alphafold_params_2021-10-27.tar"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
