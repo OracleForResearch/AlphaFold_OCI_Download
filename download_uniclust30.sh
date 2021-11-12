@@ -33,7 +33,7 @@ DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/uniclust30"
 # Mirror of:
 # http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz
-SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/wFaqDL2z5E8EeAjzKI9DZK9nMElX7ACTM5QnjJd0UEm0XoWN-r9lWM69ECV-m2d4/n/idcxvbiyd8fn/b/uniclust/o/"
+SOURCE_URL="https://storage.googleapis.com/alphafold-databases/casp14_versions/uniclust30_2018_08_hhsuite.tar.gz"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
