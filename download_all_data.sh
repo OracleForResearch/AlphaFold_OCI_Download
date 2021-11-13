@@ -52,6 +52,7 @@ fi
 
 echo "Downloading MGnify..."
 bash "${SCRIPT_DIR}/download_mgnify.sh" "${DOWNLOAD_DIR}"
+bash mv "${DOWNLOAD_DIR}"/mgy_clusters.fa "${DOWNLOAD_DIR}"/mgy_clusters_2018_12.fa
 
 echo "Downloading PDB70..."
 bash "${SCRIPT_DIR}/download_pdb70.sh" "${DOWNLOAD_DIR}"
