@@ -33,7 +33,7 @@ DOWNLOAD_DIR="$1"
 ROOT_DIR="${DOWNLOAD_DIR}/mgnify"
 # Mirror of:
 # ftp://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2018_12/mgy_clusters.fa.gz
-SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/cuNVFEHq7XrKcN65Bt7HfoDmwloCTVh4QgC3blQXVki-evZqdgTWAOOG0aq1i6F0/n/idcxvbiyd8fn/b/mgnify/o/"
+SOURCE_URL="https://objectstorage.us-ashburn-1.oraclecloud.com/p/cuNVFEHq7XrKcN65Bt7HfoDmwloCTVh4QgC3blQXVki-evZqdgTWAOOG0aq1i6F0/n/idcxvbiyd8fn/b/mgnify/o/peptide_database/2018_12/mgy_clusters.fa.gz/mgy_clusters.fa.gz"
 BASENAME=$(basename "${SOURCE_URL}")
 
 mkdir --parents "${ROOT_DIR}"
