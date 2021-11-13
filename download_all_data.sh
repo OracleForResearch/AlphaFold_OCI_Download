@@ -57,7 +57,8 @@ echo "Downloading PDB70..."
 bash "${SCRIPT_DIR}/download_pdb70.sh" "${DOWNLOAD_DIR}"
 
 echo "Downloading PDB mmCIF files..."
-bash "${SCRIPT_DIR}/download_pdb_mmcif.sh" "${DOWNLOAD_DIR}"
+mkdir "${DOWNLOAD_DIR}/pdb_mmcif"
+python3 ${SCRIPT_DIR}/download_mmCIF.py -path "${DOWNLOAD_DIR}"
 
 echo "Downloading Uniclust30..."
 bash "${SCRIPT_DIR}/download_uniclust30.sh" "${DOWNLOAD_DIR}"
