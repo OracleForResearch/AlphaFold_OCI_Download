@@ -4,14 +4,29 @@ Use these scripts to download data from Oracle Open Data platform to use with Al
 
 ## Prerequisites:
 
+### Installing Aria2: 
+
+__On Oracle Linux 7.9:__
+
+```{bash}
+sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install aria2 -y
+```
+
+__On Ubuntu:__
+
+```{bash}
+sudo apt install aria2
+```
+
 ### Install rclone 
 
-__On Oracle Linux 7.9__
+__On Oracle Linux 7.9:__
 
 ```{bash} 
 sudo yum install rclone -y
 ```
-__On Ubuntu__
+__On Ubuntu:__
 
 ```{bash}
 sudo apt install rclone -y
@@ -22,9 +37,7 @@ sudo apt install rclone -y
 ```{bash}
 vim ~/.config/rclone/rclone.conf
 ```
-If the __~/.config/rclone__ folder is not exsisting, please create it.
-
-and paste the following lines into the rclone.conf file
+If the __~/.config/rclone__ folder is not existing, please create it. Then paste the following lines into the rclone.conf file
 
 ```{bash}
 [oss]
@@ -43,14 +56,14 @@ region = us-ashburn-1
 chmod 777 *.sh *.py
 ```
 
-## How to use the script
+## How to download data using the script
 
-Execute the download_all_data.sh by typing
+To download all the databases, execute the __download_all_data.sh__ by typing
 
 ```{bash}
 ./download_all_data.sh /path/to/download/directory
 ```
 __NOTE :__
 
-Consider running the script using screen 
+* Consider running the script using screen.
 
