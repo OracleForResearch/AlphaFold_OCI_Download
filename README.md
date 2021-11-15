@@ -35,6 +35,11 @@ endpoint = https://idcxvbiyd8fn.compat.objectstorage.us-ashburn-1.oraclecloud.co
 region = us-ashburn-1
 ```
 
+## Make files executable 
+
+```{bash}
+chmod 777 *.sh *.py
+```
 
 ## How to use the script
 
