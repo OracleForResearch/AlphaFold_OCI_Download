@@ -54,9 +54,6 @@ echo "Downloading MGnify..."
 bash "${SCRIPT_DIR}/download_mgnify.sh" "${DOWNLOAD_DIR}"
 mv "${DOWNLOAD_DIR}"/mgnify/mgy_clusters.fa "${DOWNLOAD_DIR}"/mgnify/mgy_clusters_2018_12.fa
 
-echo "Downloading PDB70..."
-bash "${SCRIPT_DIR}/download_pdb70.sh" "${DOWNLOAD_DIR}"
-
 echo "Downloading PDB mmCIF files..."
 mkdir "${DOWNLOAD_DIR}/pdb_mmcif"
 mkdir "${DOWNLOAD_DIR}/pdb_mmcif/mmcif_files"
@@ -73,5 +70,8 @@ bash "${SCRIPT_DIR}/download_uniprot.sh" "${DOWNLOAD_DIR}"
 
 echo "Downloading PDB SeqRes..."
 bash "${SCRIPT_DIR}/download_pdb_seqres.sh" "${DOWNLOAD_DIR}"
+
+echo "Downloading PDB70..."
+bash "${SCRIPT_DIR}/download_pdb70.sh" "${DOWNLOAD_DIR}"
 
 echo "All data downloaded."
