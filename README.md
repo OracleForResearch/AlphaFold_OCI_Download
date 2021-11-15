@@ -22,7 +22,7 @@ sudo apt install rclone -y
 ```{bash}
 vim ~/.config/rclone/rclone.conf
 ```
-If the __~/.config/rclone__ folder is not exsisting, please create it
+If the __~/.config/rclone__ folder is not exsisting, please create it.
 
 and paste the following lines into the rclone.conf file
 
