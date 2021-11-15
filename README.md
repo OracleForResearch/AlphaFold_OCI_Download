@@ -50,5 +50,5 @@ Execute the download_all_data.sh by typing
 ```
 __NOTE :__
 
-Cosider running the script using screen 
+Consider running the script using screen 
 
