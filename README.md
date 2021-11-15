@@ -6,7 +6,7 @@ Use these scripts to download data from Oracle Open Data platform to use with Al
 
 ### Install rclone 
 
-__On Oracle Linux 7.9 __
+__On Oracle Linux 7.9__
 
 ```{bash} 
 sudo yum install rclone -y
