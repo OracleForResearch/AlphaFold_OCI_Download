@@ -9,7 +9,7 @@ Use these scripts to download data from Oracle Open Data platform to use with Al
 __On Oracle Linux 7.9:__
 
 ```{bash}
-sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y 
 sudo yum install aria2 -y
 ```
 
