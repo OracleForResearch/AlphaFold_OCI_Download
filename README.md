@@ -48,4 +48,7 @@ Execute the download_all_data.sh by typing
 ```{bash}
 ./download_all_data.sh /path/to/download/directory
 ```
+__NOTE :__
+
+Cosider running the script using screen 
 
