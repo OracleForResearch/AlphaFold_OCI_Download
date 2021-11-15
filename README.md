@@ -22,7 +22,7 @@ sudo apt install rclone -y
 ```{bash}
 vim ~/.config/rclone/rclone.conf
 ```
-and past the following lines into the rclone.conf file
+and paste the following lines into the rclone.conf file
 
 ```{bash}
 [oss]
