@@ -32,6 +32,7 @@ def download_mmcifPDB(folder_path:str)->None:
     '''
     cmd = "rclone --fast-list --transfers=128 --checkers=128 --buffer-size=2G " \
           "--max-backlog=999999 copy oss:pdb/data/structures/all/mmCIF/ {0}/".format(folder_path)
+    print("Downloading mmcifPDB ... \n")
     os.system(cmd)
     return None
 
